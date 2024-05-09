@@ -8,7 +8,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 **Example 1:**
 
-![addtwonumber1](https://raw.githubusercontent.com/Soumojitshome2023/LeetCode-DSA/main/2_Add_Two_Numbers\assets\2_Add_Two_Numbers.jpg)
+![addtwonumber1](https://raw.githubusercontent.com/Soumojitshome2023/LeetCode-DSA/main/2_Add_Two_Numbers/assets/2_Add_Two_Numbers.jpg)
 
 <pre><strong>Input:</strong> l1 = [2,4,3], l2 = [5,6,4]
 <strong>Output:</strong> [7,0,8]

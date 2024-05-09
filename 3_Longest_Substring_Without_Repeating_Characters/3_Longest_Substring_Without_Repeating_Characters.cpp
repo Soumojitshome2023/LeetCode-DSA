@@ -1,3 +1,8 @@
+#include <iostream>
+using namespace std;
+#include <unordered_set>
+#include <algorithm>
+
 class Solution
 {
 public:
@@ -44,3 +49,19 @@ public:
         return longsubstr;
     }
 };
+
+int main()
+{
+    Solution sol;
+
+    // Test cases
+    string test1 = "abcabcbb";
+    string test2 = "bbbbb";
+    string test3 = "pwwkew";
+
+    cout << "Test 1: " << sol.lengthOfLongestSubstring(test1) << endl;
+    cout << "Test 2: " << sol.lengthOfLongestSubstring(test2) << endl;
+    cout << "Test 3: " << sol.lengthOfLongestSubstring(test3) << endl;
+
+    return 0;
+}
